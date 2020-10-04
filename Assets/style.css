@@ -1,0 +1,110 @@
+/* Background image.  */
+body {
+  background-image: url(https://images.prismic.io/maydesigns/2d74717b-92d2-4941-923d-3af54d0521bc_desktop_terrazzo+quartz.png?auto=compress,format);
+}
+
+/* Nav Bar background color. */
+#navbarcolor {
+  background-color: saddlebrown;
+}
+
+/* sticky footer background color and text alignment */
+#footer {
+  background-color: saddlebrown;
+  text-align: center;
+}
+
+/* footer text color */
+#footer a {
+  color: white;
+}
+
+/* Makes footer flush with bottom of screen. */
+.footer-margin {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+}
+
+/* adjustments for sticky footer on about me and contact pages  */
+.footer-margin-about {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* About Me card positioning.  */
+.card {
+  margin: 150px;
+  margin-top: 50px;
+  /* width: 50%;
+  margin-top: 50px;
+  float: none;
+  margin-bottom: 10px;
+  padding: 50px; */
+  background-color: whitesmoke;
+}
+
+/* About Me photo dimensions. */
+#LBpic {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* About Me card dimensions. */
+.my-card {
+  background-color: white;
+  min-height: 300px;
+  max-width: 500px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+/* About Me paragraph background color. */
+p {
+  background-color: whitesmoke;
+}
+
+/* About Me card responsiveness. */
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Portfolio page rows. */
+.row img {
+  margin-top: 50px;
+  height: 350px;
+  width: 350px;
+  padding: 25px;
+}
+
+/* Portfolio images alignment within box. */
+.img-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Portfolio images box styling. */
+#portfolio-images {
+  max-width: 50%;
+  background-color: white;
+}
+
+/* Contact form dimensions. */
+.form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px;
+  width: 85% center;
+  /* padding-top: 50px;
+  margin: 100px; */
+  background-color: bisque;
+}
